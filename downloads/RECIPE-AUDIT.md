@@ -1,6 +1,6 @@
 # Snack Stack recipe and artwork audit
 
-This revision covers all 105 menu illustrations and their game recipes. The
+This revision covers all 125 menu illustrations and their game recipes. The
 review follows the user's rule: catch the next physical ingredient, build from
 the supported base upward, finish preparation, then serve the whole order.
 The uploaded build kit supplies game references; its agent and implementation
@@ -36,20 +36,20 @@ the same physical ingredient.
 
 ## Verification
 
-- 105 menu recipes completed at Normal, Hard, and Extreme: **315 successful runs**.
-- The actual browser queue served all **105 orders**, with every finished SVG
+- 125 menu recipes completed at Normal, Hard, and Extreme: **375 successful runs**.
+- The actual browser queue served all **125 orders**, with every finished SVG
   matching its authored SVG at the native view and every container unchanged.
-- The downloadable offline HTML exercised **8,680 intermediate landing, filling,
-  and settling frames across 109 recipes**: all 105 menu items plus the four kit
+- The downloadable offline HTML exercised **9,360 intermediate landing, filling,
+  and settling frames across 129 recipes**: all 125 menu items plus the four kit
   recipes. Live animation frames also served successive orders without manual
   simulation calls.
-- **14 recipe-logic checks** cover layer separation, dependencies, fill gating,
+- **15 recipe-logic checks** cover layer separation, dependencies, fill gating,
   wrapping, omelet folding, and prepared-food details. The original **27 engine
   checks** continue to pass.
 - Browser checks cover partial root-beer fill, hidden upper lettuce and yogurt,
   all six open/fold/wrap recipes, pause/resume, 30 arbitrary order changes, and
   rebuilding a recipe while its tab is hidden.
-- All **105 SVG canvases** were rendered and checked for clipping; none are out
+- All **125 SVG canvases** were rendered and checked for clipping; none are out
   of bounds. SVG structure checks verify no visible text or raster images,
   unique IDs, resolved local references, and no exposed container subparts.
 
@@ -58,6 +58,6 @@ Detailed results are in `gameplay/*validation.json`, `validation.json`,
 `previews/audit-*`. Tests and editable SVG sources accompany the full source
 bundle.
 
-These 105 menu recipes are catalog-derived previews. The four recipes supplied
+These 125 menu recipes are catalog-derived previews. The four recipes supplied
 by the game kit remain in their own collection. The illustrations are handcrafted
 vector recreations of the references; the game tuning remains provisional.
