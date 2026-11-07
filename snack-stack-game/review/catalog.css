@@ -1,0 +1,51 @@
+:root { color-scheme: light; --ink:#513019; --cream:#fff3dd; --accent:#dd734d; }
+* { box-sizing:border-box; }
+body { margin:0; background:#f3e6cf; color:var(--ink); font:500 16px Fredoka,system-ui,sans-serif; }
+button,input,select { font:inherit; color:inherit; }
+button { cursor:pointer; }
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible { outline:3px solid #eaac27;outline-offset:3px; }
+header { padding:25px max(24px,calc((100vw - 1400px)/2)); background:var(--cream); border-bottom:3px solid var(--ink); }
+h1 { font:400 30px 'Titan One',sans-serif; margin:0 0 9px; }
+header p { margin:0;line-height:1.6;color:#816248;max-width:1000px; }
+nav { display:flex;gap:9px;flex-wrap:wrap;padding:16px max(24px,calc((100vw - 1400px)/2));background:#513019;position:sticky;top:0;z-index:3; }
+nav button { border:2px solid #b89571;background:#6c482d;color:#fff3dd;padding:9px 16px;border-radius:13px; }
+nav button[aria-selected=true] { background:#f7cd68;color:var(--ink);border-color:#fff3dd; }
+main { max-width:1450px;margin:auto;padding:24px; }
+.tools { display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:20px; }
+input[type=search] { min-width:240px;max-width:100%;border:2px solid var(--ink);border-radius:12px;background:#fff9ef;padding:10px 14px; }
+select { padding:10px;border:2px solid var(--ink);border-radius:12px;background:#fff9ef; }
+.note { margin:0 0 22px;color:#806049;line-height:1.6; }
+.grid { display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:18px; }
+.grid.scenes { grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); }
+.asset { margin:0;border:2px solid #795437;border-radius:18px;background:#fff7e8;overflow:hidden;padding:15px;display:flex;align-items:center;flex-direction:column;text-align:center;gap:10px; }
+button.asset { width:100%; }
+.asset:hover { border-color:#c67447; }
+.asset img,.asset>svg { width:100%;height:150px;object-fit:contain; }
+.asset.panel img { height:130px; }
+.asset figcaption,.asset .label { font-size:17px;font-weight:600; }
+.asset small { color:#967258;font-size:13px; }
+.scene-art { width:100%;position:relative;aspect-ratio:1080/1920;background:#eee1cc;overflow:hidden;border-radius:10px; }
+.asset .scene-art img { position:absolute;inset:0;width:100%;height:100%;object-fit:contain; }
+.scene-art .scene-counter { object-fit:fill!important; }
+.no-counter .scene-counter { display:none; }
+.asset a { color:#a45536;font-size:13px; }
+.empty { grid-column:1/-1;padding:40px; }
+dialog { background:var(--cream);color:var(--ink);border:3px solid var(--ink);border-radius:24px;width:min(960px,94vw);max-height:94vh;padding:24px; }
+dialog::backdrop { background:#27190ed9; }
+.dialog-heading { display:flex;align-items:center;justify-content:space-between;gap:14px; }
+.dialog-heading h2 { margin:0;font-size:26px; }
+.dialog-heading button { width:42px;height:42px;background:#f0cf9c;border:2px solid var(--ink);border-radius:12px;font-size:24px; }
+.detail-scene { width:min(440px,100%);margin:20px auto;position:relative;aspect-ratio:1080/1920; }
+.detail-scene img { position:absolute;inset:0;width:100%;height:100%;object-fit:contain; }
+.detail-scene img:last-child { object-fit:fill; }
+.build-stage { display:grid;grid-template-columns:1fr 240px;gap:20px;margin-top:20px; }
+.build-stage>svg { width:100%;height:min(62vh,570px);background:#e4d3b8;border-radius:18px; }
+.steps { list-style:none;padding:0;margin:0;max-height:440px;overflow:auto; }
+.steps li { display:flex;align-items:center;gap:7px;padding:7px;border-radius:9px;font-size:14px; }
+.steps li.current { background:#ffe4a1; }
+.steps li.done { color:#647342; }
+.steps svg { width:38px;height:38px;flex:none; }
+.build-controls { display:flex;flex-wrap:wrap;gap:10px;margin-top:16px; }
+.build-controls button { padding:10px 20px;background:#dd734d;color:#fff8e8;border:2px solid var(--ink);border-radius:12px; }
+#build-state { align-self:center; }
+@media(max-width:650px) { .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.asset{padding:10px}.asset img,.asset>svg{height:120px}.build-stage{grid-template-columns:1fr}.steps{max-height:160px}.build-stage>svg{height:44vh}header{padding:20px}h1{font-size:24px}main{padding:16px} }

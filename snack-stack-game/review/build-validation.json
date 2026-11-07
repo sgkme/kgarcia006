@@ -1,0 +1,47 @@
+{
+  "assets": {
+    "svg_files": 162,
+    "embedded_images": 0,
+    "preserved_menu_sha256": {
+      "cafe_results.svg": "402d4839065ef757c67b78058ae9cd9aee99f7bd1141bea7cfcb17286050b9f2",
+      "cafe_shop.svg": "800dabac3e9587e1d55cf0831f091419605cda85cc01d32f54e2c01c4ebb60af",
+      "cafe_level.svg": "87d78a0a0035071709af239ad4ccaf3ed38a19d4741cd2e296931f2873f8b1e5",
+      "cafe_anchor.svg": "f48ac54b6705c3d967df4f48dba4d5c8c74b6b6087d0e8dc6b1acfd85e878e6e",
+      "cafe_settings.svg": "43c78342dab496f43c5515679a4c79383e784e5ddef52aa00b25eec72e005f56"
+    },
+    "reference_scenes": 10,
+    "reference_ui": 72
+  },
+  "browser": {
+    "PLAY-OFFLINE": {
+      "offline": true,
+      "loaded_svg_images": 92,
+      "keyboard_movement": true,
+      "ingredient_catch": true,
+      "pause_resume": true,
+      "settings_toggle": true,
+      "free_theme_equip": true,
+      "page_errors": [],
+      "failed_requests": []
+    },
+    "ART-CATALOG": {
+      "offline": true,
+      "tabs": {
+        "scenes": 10,
+        "controls": 20,
+        "rewards": 20,
+        "status": 20,
+        "panels": 12,
+        "recipes": 117,
+        "ingredients": 512,
+        "menus": 5
+      },
+      "replay": true,
+      "recipes_animated": 117,
+      "containers_rigid": true,
+      "nonfinite_geometry": 0,
+      "page_errors": [],
+      "failed_requests": []
+    }
+  }
+}

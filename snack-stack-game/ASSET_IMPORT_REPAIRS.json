@@ -1,0 +1,10 @@
+{
+  "repaired_outlines": [
+    "ing-italian_sausage",
+    "ing-bratwurst",
+    "ing-frank"
+  ],
+  "duplicate_attributes_removed": 86,
+  "valid_xml": true,
+  "ingredient_groups": 535
+}

@@ -1,0 +1,50 @@
+/* Reference-inspired UI. Icons retain their aspect ratios. Flexible surfaces
+   keep the game's own rounded geometry instead of stretching reference art. */
+.reference-art { object-fit: contain; }
+.reference-art.off { opacity: .28; filter: grayscale(1); }
+.iconbtn:has(.reference-control), .back:has(.reference-control), .hbox.pause { background: none; border: 0; box-shadow: none; padding: 0; }
+.iconbtn:has(.reference-control):active, .hbox.pause:active { box-shadow: none; }
+.hbox.pause .reference-control { width: 124px; height: 124px; }
+.ticket { background: var(--ico-ticket) center / contain no-repeat; border: 0; border-radius: 0; width: 76px; height: 70px; }
+.ticket::before, .ticket::after { display: none; }
+.coin { background: var(--ico-coin) center / contain no-repeat; border: 0; border-radius: 0; }
+.gpager .gp { background: none; border: 0; padding: 0; box-shadow: none; }
+.gpager .gp .ico { width: 100%; height: 100%; }
+.goals .box, .gpill .box { background: var(--ref-checkbox_off) center / contain no-repeat; border: 0; border-radius: 0; }
+.goals li.met .box, .gpill.met .box { background-image: var(--ref-checkbox_on); }
+.goals .box .ico, .gpill .box .ico { visibility: hidden; }
+.chip.done::after { background: var(--ref-complete) center / contain no-repeat; border: 0; border-radius: 0; width: 40px; height: 40px; }
+.mstat { position: relative; padding-left: 72px; }
+.mstat::before { content: ''; position: absolute; left: 8px; width: 58px; height: 58px; background: var(--mission-state) center / contain no-repeat; }
+.mstat > .ico { display: none; }
+.set-row > div:first-child > .ico { width: 70px; height: 70px; vertical-align: middle; margin-right: 8px; }
+.set-row .toggle { background: var(--ref-checkbox_off) center / contain no-repeat; border: 0; box-shadow: none; }
+.set-row .toggle.on { background-image: var(--ref-checkbox_on); }
+.set-row .toggle::before, .set-row .toggle::after { display: none; }
+.hbox.timer .reference-art { width: 80px; height: 80px; margin-left: 0; }
+
+.pause-ov { background: rgba(47,29,17,.64); }
+.pause-ov .modal * { text-shadow: none; -webkit-text-stroke: 0; }
+.pause-ov .modal { width: 840px; box-sizing: border-box; max-height: 1660px; gap: 32px; padding: 42px; background: #fff5df; border: 7px solid #57351f; border-radius: 46px; box-shadow: 0 0 0 6px #fff, 0 18px 0 rgba(47,29,17,.3); overflow: auto; }
+.pause-ov .modal::before, .pause-ov .modal::after { display: none; }
+.pause-heading { display: flex; align-items: center; gap: 22px; }
+.pause-heading > .ico { width: 94px; height: 94px; flex: none; }
+.pause-heading h2 { flex: 1; font-size: 76px; text-align: left; color: #57351f; -webkit-text-stroke: 0; text-shadow: none; }
+.pause-close { display: grid; place-items: center; width: 78px; height: 78px; border: 0; padding: 0; background: none; }
+.pause-close .ico { width: 78px; height: 78px; }
+.pause-ov .pause-order { font-size: 34px; font-weight: 600; text-align: left; color: #81634c; line-height: 1.3; }
+.pause-ov .pause-order b { display: block; color: #57351f; font-size: 40px; }
+.pause-actions { display: grid; gap: 24px; }
+.pause-ov .pause-action { min-height: 116px; display: flex; align-items: center; justify-content: center; gap: 16px; border: 5px solid #57351f; border-radius: 28px; background: #fffaf0; box-shadow: 0 6px 0 #d9c3a4, inset 0 3px 0 #fff; font-family: var(--font-body); font-size: 42px; font-weight: 700; color: #57351f; padding: 18px; text-shadow: none; -webkit-text-stroke: 0; }
+.pause-ov .pause-action.primary { background: #dc714b; color: #fffaf0; font-size: 50px; box-shadow: 0 7px 0 #99482c, inset 0 4px 0 #fca27c; }
+.pause-action .ico { width: 66px; height: 66px; flex: none; }
+.pause-action:active { transform: translateY(4px); }
+.pause-secondary { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.pause-secondary .pause-action { font-size: 36px; white-space: nowrap; gap: 12px; }
+.pause-audio { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding-top: 14px; border-top: 3px solid #eadbc3; }
+.pause-audio .pause-action { background: #f2e6cf; border: 0; box-shadow: none; justify-content: flex-start; font-size: 32px; }
+.pause-audio .pause-action span { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; }
+.pause-audio small { font-size: 28px; color: #81634c; }
+.pause-ov .pause-exit { border: 0; padding: 12px; min-height: 70px; background: none; color: #a24d32; font-family: var(--font-body); font-size: 34px; font-weight: 600; text-decoration: underline; text-underline-offset: 7px; }
+.pause-ov .goals { padding: 22px; border-radius: 22px; background: #f2e6cf; }
+.pause-ov .goals li { font-size: 32px; }

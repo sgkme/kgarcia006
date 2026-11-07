@@ -1,0 +1,1435 @@
+{
+  "format": "snack-stack-handcrafted-svg-1",
+  "pending_reference_archive": "export (22).zip: exceeds the upload-transfer tool limit of 32 MiB; split archive or external download link required.",
+  "ui": [
+    {
+      "id": "play",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        62,
+        53,
+        406,
+        375
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/play.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 869,
+      "elements": 6,
+      "embedded_images": 0
+    },
+    {
+      "id": "home",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        443,
+        48,
+        793,
+        375
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/home.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1007,
+      "elements": 7,
+      "embedded_images": 0
+    },
+    {
+      "id": "shop",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        827,
+        58,
+        1175,
+        378
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/shop.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1119,
+      "elements": 8,
+      "embedded_images": 0
+    },
+    {
+      "id": "settings",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        1208,
+        58,
+        1559,
+        378
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/settings.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1219,
+      "elements": 7,
+      "embedded_images": 0
+    },
+    {
+      "id": "pause",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        1594,
+        51,
+        1942,
+        378
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/pause.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 970,
+      "elements": 7,
+      "embedded_images": 0
+    },
+    {
+      "id": "restart",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        54,
+        453,
+        406,
+        781
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/restart.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1153,
+      "elements": 8,
+      "embedded_images": 0
+    },
+    {
+      "id": "close",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        443,
+        448,
+        796,
+        768
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/close.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 970,
+      "elements": 7,
+      "embedded_images": 0
+    },
+    {
+      "id": "arrow_left",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        828,
+        454,
+        1176,
+        768
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/arrow_left.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 879,
+      "elements": 7,
+      "embedded_images": 0
+    },
+    {
+      "id": "arrow_right",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        1208,
+        451,
+        1559,
+        769
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/arrow_right.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 881,
+      "elements": 7,
+      "embedded_images": 0
+    },
+    {
+      "id": "arrow_up",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        1595,
+        453,
+        1947,
+        773
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/arrow_up.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 880,
+      "elements": 7,
+      "embedded_images": 0
+    },
+    {
+      "id": "arrow_down",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        58,
+        837,
+        408,
+        1167
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/arrow_down.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 881,
+      "elements": 7,
+      "embedded_images": 0
+    },
+    {
+      "id": "sound_on",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        443,
+        835,
+        796,
+        1171
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/sound_on.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1137,
+      "elements": 8,
+      "embedded_images": 0
+    },
+    {
+      "id": "sound_off",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        827,
+        835,
+        1176,
+        1162
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/sound_off.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1080,
+      "elements": 8,
+      "embedded_images": 0
+    },
+    {
+      "id": "music",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        1213,
+        842,
+        1563,
+        1151
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/music.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1141,
+      "elements": 9,
+      "embedded_images": 0
+    },
+    {
+      "id": "info",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        1596,
+        840,
+        1947,
+        1152
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/info.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 974,
+      "elements": 8,
+      "embedded_images": 0
+    },
+    {
+      "id": "help",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        52,
+        1216,
+        407,
+        1534
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/help.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1176,
+      "elements": 9,
+      "embedded_images": 0
+    },
+    {
+      "id": "menu",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        445,
+        1218,
+        796,
+        1534
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/menu.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 995,
+      "elements": 8,
+      "embedded_images": 0
+    },
+    {
+      "id": "back",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        830,
+        1217,
+        1181,
+        1534
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/back.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1127,
+      "elements": 8,
+      "embedded_images": 0
+    },
+    {
+      "id": "fullscreen",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        1214,
+        1219,
+        1565,
+        1532
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/fullscreen.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1033,
+      "elements": 7,
+      "embedded_images": 0
+    },
+    {
+      "id": "lock",
+      "category": "controls",
+      "reference_sheet": "Image 2.png",
+      "reference_box": [
+        1596,
+        1216,
+        1947,
+        1535
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/lock.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1289,
+      "elements": 10,
+      "embedded_images": 0
+    },
+    {
+      "id": "coin",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        60,
+        98,
+        392,
+        357
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/coin.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 564,
+      "elements": 6,
+      "embedded_images": 0
+    },
+    {
+      "id": "coin_stack",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        444,
+        69,
+        779,
+        368
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/coin_stack.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1401,
+      "elements": 14,
+      "embedded_images": 0
+    },
+    {
+      "id": "gem",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        839,
+        73,
+        1174,
+        368
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/gem.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 580,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "heart",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        1219,
+        80,
+        1559,
+        377
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/heart.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 473,
+      "elements": 4,
+      "embedded_images": 0
+    },
+    {
+      "id": "star",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        1614,
+        57,
+        1942,
+        367
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/star.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 490,
+      "elements": 4,
+      "embedded_images": 0
+    },
+    {
+      "id": "trophy",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        42,
+        452,
+        409,
+        760
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/trophy.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 781,
+      "elements": 6,
+      "embedded_images": 0
+    },
+    {
+      "id": "crown",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        436,
+        457,
+        791,
+        744
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/crown.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 706,
+      "elements": 7,
+      "embedded_images": 0
+    },
+    {
+      "id": "ticket",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        832,
+        462,
+        1199,
+        768
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/ticket.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 465,
+      "elements": 4,
+      "embedded_images": 0
+    },
+    {
+      "id": "ribbon",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        1248,
+        438,
+        1527,
+        771
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/ribbon.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 497,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "chest_closed",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        1595,
+        471,
+        1958,
+        756
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/chest_closed.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 779,
+      "elements": 7,
+      "embedded_images": 0
+    },
+    {
+      "id": "chest_open",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        44,
+        829,
+        406,
+        1150
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/chest_open.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1508,
+      "elements": 15,
+      "embedded_images": 0
+    },
+    {
+      "id": "coin_bag",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        436,
+        818,
+        770,
+        1155
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/coin_bag.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 629,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "key",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        838,
+        839,
+        1160,
+        1134
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/key.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 495,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "medal",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        1227,
+        824,
+        1543,
+        1160
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/medal.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 497,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "shield",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        1607,
+        821,
+        1946,
+        1165
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/shield.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 695,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "lightning",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        85,
+        1221,
+        351,
+        1546
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/lightning.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 300,
+      "elements": 3,
+      "embedded_images": 0
+    },
+    {
+      "id": "boost",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        434,
+        1226,
+        763,
+        1542
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/boost.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 391,
+      "elements": 4,
+      "embedded_images": 0
+    },
+    {
+      "id": "hourglass",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        842,
+        1218,
+        1133,
+        1540
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/hourglass.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 694,
+      "elements": 6,
+      "embedded_images": 0
+    },
+    {
+      "id": "gift",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        1208,
+        1205,
+        1574,
+        1546
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/gift.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 642,
+      "elements": 6,
+      "embedded_images": 0
+    },
+    {
+      "id": "sparkles",
+      "category": "rewards",
+      "reference_sheet": "Image 3.png",
+      "reference_box": [
+        1631,
+        1225,
+        1934,
+        1535
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/sparkles.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 816,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "meter_empty",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        35,
+        145,
+        417,
+        349
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/meter_empty.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 351,
+      "elements": 4,
+      "embedded_images": 0
+    },
+    {
+      "id": "meter_half",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        433,
+        145,
+        814,
+        350
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/meter_half.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 452,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "meter_full",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        834,
+        145,
+        1216,
+        356
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/meter_full.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 453,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "meter_vertical",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        1282,
+        40,
+        1492,
+        415
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/meter_vertical.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 350,
+      "elements": 4,
+      "embedded_images": 0
+    },
+    {
+      "id": "clock",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        1586,
+        76,
+        1941,
+        405
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/clock.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 2109,
+      "elements": 18,
+      "embedded_images": 0
+    },
+    {
+      "id": "charges",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        35,
+        508,
+        416,
+        771
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/charges.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 715,
+      "elements": 6,
+      "embedded_images": 0
+    },
+    {
+      "id": "star_ticket",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        427,
+        507,
+        820,
+        768
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/star_ticket.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 680,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "stopwatch",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        828,
+        440,
+        1163,
+        798
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/stopwatch.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 2324,
+      "elements": 20,
+      "embedded_images": 0
+    },
+    {
+      "id": "flame",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        1229,
+        460,
+        1533,
+        783
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/flame.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 512,
+      "elements": 4,
+      "embedded_images": 0
+    },
+    {
+      "id": "failure",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        1606,
+        460,
+        1942,
+        790
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/failure.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 396,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "location",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        84,
+        842,
+        326,
+        1174
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/location.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 508,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "complete",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        441,
+        912,
+        747,
+        1146
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/complete.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 587,
+      "elements": 6,
+      "embedded_images": 0
+    },
+    {
+      "id": "locked",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        828,
+        888,
+        1137,
+        1147
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/locked.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1518,
+      "elements": 13,
+      "embedded_images": 0
+    },
+    {
+      "id": "active_star",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        1186,
+        862,
+        1554,
+        1188
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/active_star.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 546,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "stars_1",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        1589,
+        908,
+        1974,
+        1134
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/stars_1.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1012,
+      "elements": 7,
+      "embedded_images": 0
+    },
+    {
+      "id": "stars_3",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        33,
+        1273,
+        404,
+        1494
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/stars_3.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1012,
+      "elements": 7,
+      "embedded_images": 0
+    },
+    {
+      "id": "stars_5",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        424,
+        1269,
+        831,
+        1491
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/stars_5.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 1442,
+      "elements": 9,
+      "embedded_images": 0
+    },
+    {
+      "id": "checkbox_on",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        871,
+        1248,
+        1164,
+        1510
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/checkbox_on.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 711,
+      "elements": 7,
+      "embedded_images": 0
+    },
+    {
+      "id": "checkbox_off",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        1247,
+        1246,
+        1542,
+        1510
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/checkbox_off.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 454,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "danger",
+      "category": "status",
+      "reference_sheet": "Image 5.png",
+      "reference_box": [
+        1649,
+        1250,
+        1895,
+        1503
+      ],
+      "width": 160,
+      "height": 160,
+      "svg": "assets/ui/danger.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 329,
+      "elements": 4,
+      "embedded_images": 0
+    },
+    {
+      "id": "button_pill",
+      "category": "panels",
+      "reference_sheet": "Image 7.png",
+      "reference_box": [
+        80,
+        150,
+        589,
+        439
+      ],
+      "width": 320,
+      "height": 200,
+      "svg": "assets/ui/button_pill.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 477,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "button_rect",
+      "category": "panels",
+      "reference_sheet": "Image 7.png",
+      "reference_box": [
+        655,
+        110,
+        1284,
+        452
+      ],
+      "width": 320,
+      "height": 200,
+      "svg": "assets/ui/button_rect.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 467,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "tile_green",
+      "category": "panels",
+      "reference_sheet": "Image 7.png",
+      "reference_box": [
+        1379,
+        87,
+        1777,
+        478
+      ],
+      "width": 320,
+      "height": 200,
+      "svg": "assets/ui/tile_green.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 250,
+      "elements": 3,
+      "embedded_images": 0
+    },
+    {
+      "id": "tile_round",
+      "category": "panels",
+      "reference_sheet": "Image 7.png",
+      "reference_box": [
+        1893,
+        90,
+        2301,
+        483
+      ],
+      "width": 320,
+      "height": 200,
+      "svg": "assets/ui/tile_round.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 250,
+      "elements": 3,
+      "embedded_images": 0
+    },
+    {
+      "id": "panel_red",
+      "category": "panels",
+      "reference_sheet": "Image 7.png",
+      "reference_box": [
+        40,
+        631,
+        683,
+        1172
+      ],
+      "width": 320,
+      "height": 200,
+      "svg": "assets/ui/panel_red.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 657,
+      "elements": 6,
+      "embedded_images": 0
+    },
+    {
+      "id": "panel_green",
+      "category": "panels",
+      "reference_sheet": "Image 7.png",
+      "reference_box": [
+        764,
+        616,
+        1239,
+        1189
+      ],
+      "width": 320,
+      "height": 200,
+      "svg": "assets/ui/panel_green.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 657,
+      "elements": 6,
+      "embedded_images": 0
+    },
+    {
+      "id": "panel_plain",
+      "category": "panels",
+      "reference_sheet": "Image 7.png",
+      "reference_box": [
+        1325,
+        679,
+        1783,
+        1143
+      ],
+      "width": 320,
+      "height": 200,
+      "svg": "assets/ui/panel_plain.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 483,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "panel_inset",
+      "category": "panels",
+      "reference_sheet": "Image 7.png",
+      "reference_box": [
+        1876,
+        669,
+        2343,
+        1134
+      ],
+      "width": 320,
+      "height": 200,
+      "svg": "assets/ui/panel_inset.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 483,
+      "elements": 5,
+      "embedded_images": 0
+    },
+    {
+      "id": "panel_tab",
+      "category": "panels",
+      "reference_sheet": "Image 7.png",
+      "reference_box": [
+        50,
+        1362,
+        639,
+        1665
+      ],
+      "width": 320,
+      "height": 200,
+      "svg": "assets/ui/panel_tab.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 629,
+      "elements": 6,
+      "embedded_images": 0
+    },
+    {
+      "id": "speech",
+      "category": "panels",
+      "reference_sheet": "Image 7.png",
+      "reference_box": [
+        677,
+        1327,
+        1171,
+        1674
+      ],
+      "width": 320,
+      "height": 200,
+      "svg": "assets/ui/speech.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 360,
+      "elements": 3,
+      "embedded_images": 0
+    },
+    {
+      "id": "folder",
+      "category": "panels",
+      "reference_sheet": "Image 7.png",
+      "reference_box": [
+        1238,
+        1315,
+        1755,
+        1682
+      ],
+      "width": 320,
+      "height": 200,
+      "svg": "assets/ui/folder.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 483,
+      "elements": 4,
+      "embedded_images": 0
+    },
+    {
+      "id": "input",
+      "category": "panels",
+      "reference_sheet": "Image 7.png",
+      "reference_box": [
+        1802,
+        1338,
+        2358,
+        1665
+      ],
+      "width": 320,
+      "height": 200,
+      "svg": "assets/ui/input.svg",
+      "method": "Handcrafted SVG shapes and paths; reference-inspired",
+      "svg_bytes": 348,
+      "elements": 4,
+      "embedded_images": 0
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "food_truck",
+      "name": "Food Truck",
+      "kitchen_id": "kitchen_default",
+      "width": 1088,
+      "height": 1920,
+      "svg": "assets/bg/gameplay/food_truck.svg",
+      "method": "Handcrafted SVG composition and vector props",
+      "counter_svg": "assets/bg/counters/food_truck.svg",
+      "svg_bytes": 32857,
+      "elements": 277,
+      "embedded_images": 0
+    },
+    {
+      "id": "movie_theater",
+      "name": "Movie Theater Concession",
+      "kitchen_id": "kitchen_retro_diner",
+      "width": 1088,
+      "height": 1920,
+      "svg": "assets/bg/gameplay/movie_theater.svg",
+      "counter_svg": "assets/bg/counters/movie_theater.svg",
+      "method": "Handcrafted SVG composition and vector props",
+      "svg_bytes": 36492,
+      "elements": 337,
+      "embedded_images": 0
+    },
+    {
+      "id": "picnic_park",
+      "name": "Picnic Park",
+      "kitchen_id": "kitchen_garden",
+      "width": 1088,
+      "height": 1920,
+      "svg": "assets/bg/gameplay/picnic_park.svg",
+      "counter_svg": "assets/bg/counters/picnic_park.svg",
+      "method": "Handcrafted SVG composition and vector props",
+      "svg_bytes": 25275,
+      "elements": 201,
+      "embedded_images": 0
+    },
+    {
+      "id": "candy_store",
+      "name": "Candy Store",
+      "kitchen_id": "kitchen_candy",
+      "width": 1088,
+      "height": 1920,
+      "svg": "assets/bg/gameplay/candy_store.svg",
+      "counter_svg": "assets/bg/counters/candy_store.svg",
+      "method": "Handcrafted SVG composition and vector props",
+      "svg_bytes": 138634,
+      "elements": 1371,
+      "embedded_images": 0
+    },
+    {
+      "id": "bakery_shop",
+      "name": "Bakery Shop",
+      "kitchen_id": "kitchen_cozy_cafe",
+      "width": 1088,
+      "height": 1920,
+      "svg": "assets/bg/gameplay/bakery_shop.svg",
+      "counter_svg": "assets/bg/counters/bakery_shop.svg",
+      "method": "Handcrafted SVG composition and vector props",
+      "svg_bytes": 40998,
+      "elements": 363,
+      "embedded_images": 0
+    },
+    {
+      "id": "arcade",
+      "name": "Arcade Snack Bar",
+      "kitchen_id": "kitchen_arcade",
+      "width": 1088,
+      "height": 1920,
+      "svg": "assets/bg/gameplay/arcade.svg",
+      "counter_svg": "assets/bg/counters/arcade.svg",
+      "method": "Handcrafted SVG composition and vector props",
+      "svg_bytes": 32547,
+      "elements": 289,
+      "embedded_images": 0
+    },
+    {
+      "id": "midnight_fridge",
+      "name": "Midnight Fridge Raid",
+      "kitchen_id": "kitchen_night",
+      "width": 1088,
+      "height": 1920,
+      "svg": "assets/bg/gameplay/midnight_fridge.svg",
+      "counter_svg": "assets/bg/counters/midnight_fridge.svg",
+      "method": "Handcrafted SVG composition and vector props",
+      "svg_bytes": 20422,
+      "elements": 192,
+      "embedded_images": 0
+    },
+    {
+      "id": "beach_shack",
+      "name": "Beach Snack Shack",
+      "kitchen_id": "kitchen_food_truck",
+      "width": 1088,
+      "height": 1920,
+      "svg": "assets/bg/gameplay/beach_shack.svg",
+      "counter_svg": "assets/bg/counters/beach_shack.svg",
+      "method": "Handcrafted SVG composition and vector props",
+      "svg_bytes": 36562,
+      "elements": 326,
+      "embedded_images": 0
+    },
+    {
+      "id": "space_station",
+      "name": "Space Station Cafeteria",
+      "kitchen_id": "kitchen_modern",
+      "width": 1088,
+      "height": 1920,
+      "svg": "assets/bg/gameplay/space_station.svg",
+      "counter_svg": "assets/bg/counters/space_station.svg",
+      "method": "Handcrafted SVG composition and vector props",
+      "svg_bytes": 44007,
+      "elements": 438,
+      "embedded_images": 0
+    },
+    {
+      "id": "haunted_house",
+      "name": "Haunted Snack House",
+      "kitchen_id": "kitchen_haunted",
+      "width": 1088,
+      "height": 1920,
+      "svg": "assets/bg/gameplay/haunted_house.svg",
+      "counter_svg": "assets/bg/counters/haunted_house.svg",
+      "method": "Handcrafted SVG composition and vector props",
+      "svg_bytes": 49969,
+      "elements": 438,
+      "embedded_images": 0
+    }
+  ],
+  "redraw_method": "Handcrafted vector geometry. No raster images or tracing correction paths."
+}
